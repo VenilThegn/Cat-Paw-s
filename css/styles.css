@@ -1,0 +1,122 @@
+
+
+#title{
+
+  background-color: #FFADAD;
+padding:0 0 50px ;
+}
+#features{
+  background-color: #FFDAC7;
+padding:50px 0 0 ;
+text-align: center;
+}
+
+#testimonials{
+  text-align: center;
+background-color: #FFEFBC;
+padding:50px 0 50px ;
+
+}
+#press{
+  background-color: #FFDAC7;
+  padding:50px 10% ;
+}
+#pricing{
+  background-color: #FFDAC7;
+  padding:0 0 50px ;
+  text-align: center;
+}
+#cta{
+  padding: 50px 10%;
+  text-align:center;
+  background-color: #FFADAD;
+}
+
+#footer{
+  padding: 50px ;
+  background-color: #FFEFBC;
+  text-align: center;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Tangerine', cursive;
+  font-size: 3rem;
+  line-height: 2;
+  font-weight: bold;
+
+}
+
+/* nav-bar */
+
+.navbar{
+  padding-bottom: 8%;
+}
+.navbar-brand{
+  font-family: 'Play', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2 rem;
+
+}
+.download-button{
+  margin : 10% 3% 5% 0;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-family: 'Play', sans-serif;
+}
+/* title */
+.container-fluid{
+  padding: 3% 15% ;
+}
+.cat{
+  width: 220px;
+transform: rotate(15deg);
+}
+.fab:hover{
+  color: lightblue;
+}
+/* feautures */
+.f-col{
+  margin-bottom: 100px;
+}
+
+.fas:hover{
+
+  color: #ff4c68;
+}
+
+/* Testimonials */
+.t-col{
+  width: 60%;
+  margin: 25px  auto;
+
+  line-height: 1.5;
+
+}
+.happycat{
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+}
+.sadcat{
+  width: 200px;
+  border-radius: 30%;
+}
+/* press */
+.brand{
+  width:150px;
+}
+/* cta */
