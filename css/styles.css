@@ -65,7 +65,9 @@ h1{
   padding: 0 18px;
 }
 .nav-link{
-  font-size: 1.2 rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
 
 }
 .download-button{
