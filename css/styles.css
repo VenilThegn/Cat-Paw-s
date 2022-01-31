@@ -1,124 +1,141 @@
-
-
-#title{
-
+#title {
   background-color: #FFADAD;
-padding:0 0 50px ;
-}
-#features{
-  background-color: #FFDAC7;
-padding:50px 0 0 ;
-text-align: center;
+  padding: 7% auto;
 }
 
-#testimonials{
-  text-align: center;
-background-color: #FFEFBC;
-padding:50px 0 50px ;
-
-}
-#press{
+#features {
   background-color: #FFDAC7;
-  padding:50px 10% ;
-}
-#pricing{
-  background-color: #FFEFBC;
-  padding:0 0 50px ;
+  padding: 7% 15%;
   text-align: center;
 }
-#cta{
-  padding: 50px 10%;
-  text-align:center;
+
+#testimonials {
   background-color: #FFADAD;
-}
 
-#footer{
-  padding: 50px ;
-  background-color: #FFEFBC;
   text-align: center;
 }
 
-body{
+#press {
+  background-color: #FFADAD;
+  padding: 0 15% 0%;
+
+}
+
+#pricing {
+  background-color: #FFDAC7;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #FFDAC7;
+}
+
+#footer {
+  padding: 7% 15%;
+  background-color: #FFADAD;
+  text-align: center;
+}
+
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1 {
   font-family: 'Tangerine', cursive;
   font-size: 3rem;
   line-height: 2;
   font-weight: bold;
+}
 
+h3 {
+  font-family: 'Play', sans-serif;
+}
+
+h2 {
+  font-family: 'Play', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
 }
 
 /* nav-bar */
-
-.navbar{
+.navbar {
   padding-bottom: 8%;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-family: 'Play', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
-.nav-item{
 
+.nav-item {
   padding: 0 18px;
 }
-.nav-link{
+
+.nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 23px;
   font-weight: bold;
+}
 
+.download-button {
+  margin: 10% 3% 5% 0;
 }
-.download-button{
-  margin : 10% 3% 5% 0;
-}
-p{
+
+p {
   font-family: 'Montserrat', sans-serif;
 }
-h3{
-  font-family: 'Play', sans-serif;
-}
+
 /* title */
-.container-fluid{
-  padding: 3% 15% ;
+.container-fluid {
+  padding: 3% 15%;
 }
-.cat{
+
+.cat {
   width: 220px;
-transform: rotate(15deg);
+  transform: rotate(15deg);
 }
-.fab:hover{
+
+.fab:hover {
   color: lightblue;
 }
+
 /* feautures */
-.f-col{
-  margin-bottom: 100px;
+.f-col {
+  margin: 7% auto;
 }
 
-.fas:hover{
-
+.fas:hover {
   color: #ff4c68;
 }
 
 /* Testimonials */
-.t-col{
+.t-col {
   width: 60%;
-  margin: 25px  auto;
+  margin: 25px auto;
 
-  line-height: 1.5;
 
+}
+.carousel-item{
+  padding:7% 15%;
 }
 .happycat{
-  width: 200px;
-  height: 200px;
-  border-radius: 30%;
+  width: 100px;
+  height:100px;
+  border-radius: 100%;
+  margin: 20px;
 }
-.sadcat{
-  width: 200px;
-  border-radius: 30%;
-}
+
+
+
 /* press */
-.brand{
-  width:150px;
+.brand {
+  width: 70%;
+    margin:20px 20px 50px;
 }
+
 /* cta */

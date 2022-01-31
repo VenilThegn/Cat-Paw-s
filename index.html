@@ -8,6 +8,9 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
   <link rel="stylesheet" href="css/styles.css">
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
@@ -33,7 +36,7 @@
           <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:red; font-size:28px;"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="">Contact</a>
             </li>
@@ -92,18 +95,39 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div class="row">
-      <div class="col-lg-6 col-md-12 col-sm-12 t-col">
-        <h3>I no longer have to purr at other cats for love. I've found the hottest siara on Kitty paw's... Meaw Mew.<i class="fas fa-cat"></i> </h3>
-        <img class="sadcat" src="images/sadcat.jpeg" alt="sadcat">
-        <em>Trichy, Tamil Nadu</em>
+
+    <div id="carousel-testimonials" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="10000">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">I no longer have to purr at other cats for love. I've found the hottest siara on Kitty paw's... Meaw Mew.<i class="fas fa-cat"></i> </h2>
+          <img class="happycat" src="images/sadcat.jpeg" alt="sadcat">
+          <em>Trichy, Tamil Nadu</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My cat used to be so lonely, but with Kitty Paw's help, they've found the love of their life. I think. <i class="fas fa-heart "></i></h2>
+          <img class="happycat" src="images/happycat.jpeg" alt="happycat">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Siara found his newfound love with the help of Kitty Paw's .Now its ignoring me...xd  <i class="fas fa-heart "></i></h2>
+          <img class="happycat" src="images/happycat.jpg" alt="happycat">
+          <em>Trichy,Tamil Nadu</em>
+        </div>
       </div>
-      <div class="col-lg-6 col-md-12 col-sm-12 t-col">
-        <h3 class="testimonial-text">My cat used to be so lonely, but with Kitty Paw's help, they've found the love of their life. I think. <i class="fas fa-heart "></i></h3>
-        <img class="happycat" src="images/happycat.jpeg" alt="happycat">
-        <em>Beverly, Illinois</em>
-      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carousel-testimonials" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carousel-testimonials" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+
+
+
+
 
   </section>
 
