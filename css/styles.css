@@ -51,12 +51,6 @@ h2 {
   margin: 10% 3% 5% 0;
 }
 
-/* feautures */
-#features {
-  background-color: #FFDAC7;
-  padding: 7% 15%;
-  text-align: center;
-}
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -70,6 +64,7 @@ p {
 .cat {
   width: 220px;
   transform: rotate(15deg);
+  position: absolute;
 }
 
 .fab:hover {
@@ -77,6 +72,13 @@ p {
 }
 
 /* feautures */
+#features {
+  background-color: #FFDAC7;
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+}
+
 .f-col {
   margin: 7% auto;
 }
