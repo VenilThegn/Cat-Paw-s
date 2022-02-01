@@ -48,7 +48,7 @@ h2 {
 }
 
 .download-button {
-  margin: 10% 3% 5% 0;
+  margin: 10% 3% 18% 0;
 }
 
 
@@ -62,7 +62,7 @@ p {
 }
 
 .cat {
-  width: 220px;
+  width: 250px;
   transform: rotate(15deg);
   position: absolute;
 }
@@ -78,6 +78,21 @@ p {
   text-align: center;
   position: relative;
 }
+   @media (max-width:1028px){
+
+     #title{
+       text-align: center;
+       padding: 7% auto;
+     }
+     .cat {
+       width: 210px;
+       transform: rotate(0);
+       position:static;
+     }
+     .download-button {
+       margin: 10% 3% 5% 0;
+     }
+   }
 
 .f-col {
   margin: 7% auto;
