@@ -127,6 +127,14 @@ p {
 
 .pricing-column {
   margin: 3% 0%;
+
+}
+.card-header{
+  background-color: purple;
+  color: white;
+}
+.card{
+  background-color:  lightblue;
 }
 
 /* cta */
@@ -144,4 +152,7 @@ padding-bottom: 5%;
   padding: 4% 15%;
   background-color: #FFADAD;
   text-align: center;
+}
+.f{
+  padding: 0 10px;
 }
